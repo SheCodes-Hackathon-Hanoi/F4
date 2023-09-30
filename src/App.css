@@ -15,3 +15,22 @@
   background-color: #E1F0F8;
 }
 
+.Header{
+  background-color: white;
+  margin-left: 25%;
+  height: 45px;
+  width: 70vw;
+  border-radius: 30px;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+.MainSection{
+  background-color: white;
+  margin-left: 25%;
+  margin-top: 20px;
+  height: 530px;
+  width: 70vw;
+  border-radius: 30px;
+}
