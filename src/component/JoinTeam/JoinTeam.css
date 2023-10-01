@@ -1,0 +1,43 @@
+.JoinTeam{
+    background-color: #AEDAF2;
+    height: 100vh;
+    width: 100vw;
+}
+
+.MainSection1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    margin-left: 25%;
+    margin-top: 20px;
+    height: 530px;
+    width: 70vw;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+.enter-code{
+    border: none;
+    background-color: #91D4F9;
+    border-radius: 8px;
+    height: 10vh;
+    width: 50vw;
+    font-size: 30px;
+}
+
+.enter-room-button{
+    background-color: #F87C83;
+    font-size: 20px;
+    margin-top: 50px;
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 60%;
+}
+
+.enter-room-button:hover{
+    background-color: #ee5259;
+}

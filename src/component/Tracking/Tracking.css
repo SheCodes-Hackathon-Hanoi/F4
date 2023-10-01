@@ -1,0 +1,90 @@
+.MainSection1{
+    background-color: white;
+    margin-left: 25%;
+    margin-top: 20px;
+    height: 600px;
+    width: 70vw;
+    border-radius: 30px;
+  }
+  .Tracking{
+    background-color: #AEDAF2;
+    height: 100vh;
+    width: 100vw;
+  }
+  .text11{
+      font-style: Bold;
+      font-size: 30px;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      margin-left: -30px;
+  }
+  .CountDown{
+      margin-top: -0.9px;
+      font-style: Bold;
+      background-color: #91D4F9;
+      width: 25vw;
+      height: 130px;
+      font-size: 70px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 30px;
+      padding-left: 13px;
+      padding-top: 20px;
+  }
+  
+  .codeVerify{
+      margin-left: 17vw;
+      align-items: center;
+      margin-top: -50px;
+  }
+  .RandomCode{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+      font-size: 40px;
+      margin-left: 190px;
+      color: #FFFFFF;
+      background-color: #2A3134;
+      height: 50px;
+      width: 10vw;
+      border-radius: 20px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+  }
+   .col-40 {
+      width: 40%;
+    }
+    
+    .col-60 {
+      float: left;
+      width: 60%;
+    }
+  
+  .col-60 input{
+      font-size: 20px;
+      padding: 10px;
+      height: 40px;
+      width: 30vw;
+      background-color: #BBD7F1;
+      border-radius: 20px;
+      border: none;
+      margin-top: -20px;
+      margin-left: 35px;
+  }
+  
+  .col-40 button{
+      font-size: 20px;
+      width: 10vw;
+      height: 60px;
+      padding: 15px;
+      border-radius: 20px;
+      border: none;
+      margin-left: 50px;
+      margin-top: -20px;
+  }
+
+  .text2{
+    text-align: start;
+    margin-left: 30px;
+  }
+  

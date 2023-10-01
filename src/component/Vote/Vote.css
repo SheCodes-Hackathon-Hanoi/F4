@@ -1,0 +1,83 @@
+.buttonnn .create{
+    font-size: 20px;
+      width: 15vw;
+      height: 50px;
+      padding: 15px;
+      border-radius: 20px;
+      border: none;
+      margin-left: 250px;
+}
+
+.buttonnn .create:hover{
+    background-color: #e35c63;
+}
+
+.a-row{
+    display: flex;
+}
+
+.checkbox input{
+   width: 35px;
+   height: 35px;
+   margin-left: 45px;
+}
+
+.label{
+    height: 15px;
+    display: flex;
+}
+
+.label h4{
+    padding-left: 200px;
+}
+
+.button-name{
+  display: flex;
+  align-items: flex-start;
+  width: 40vw;
+  border-radius: 20px;
+  background-color: #E1F0F8;
+  color: black;
+  margin: 10px;
+  padding: 16px;
+  border: none;
+  font-size: 20px;
+}
+
+td input{
+    width: 30px;
+    height: 30px;
+}
+
+/* Vote.css */
+  
+  /* Add styles for the table */
+  
+  table {
+    width: 70vw;
+    border-collapse: collapse;
+  }
+  
+  th {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  td {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+  }
+  
+  /* Center checkboxes in the "Completed" and "Not Completed" columns */
+  td input[type="checkbox"] {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Separate the "Completed" and "Not Completed" columns */
+  td:nth-child(2),
+  td:nth-child(3) {
+    width: 50%;
+  }
+  

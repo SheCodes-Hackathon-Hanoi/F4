@@ -1,0 +1,104 @@
+.Room{
+    background-color: #AEDAF2;
+    height: 100vh;
+    width: 100vw;
+}
+
+.room-name{
+    font-weight: bolder;
+    font-size: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #F87C83;
+    height: 50px;
+    width: 50vw;
+    border-radius: 50px;
+}
+
+.MainSection2{
+  background-color: white;
+  margin-left: 25%;
+  margin-top: 20px;
+  height: 600px;
+  width: 70vw;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.room-content{
+    display: flex;
+}
+
+.circle{
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    background-color: #AEE1F1;
+    color: black;
+    border-radius: 100%;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.in-a-row{
+    display: flex;
+}
+
+.in-a-row p{
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.buttonn button{
+      font-size: 20px;
+      width: 15vw;
+      height: 50px;
+      padding: 15px;
+      border-radius: 20px;
+      border: none;
+      margin-left: 60px;
+}
+
+.buttonn .create:hover{
+    background-color: #e35c63;
+}
+
+.buttonn .cancel:hover{
+    background-color: #839faf;
+}
+
+/* Room.css */
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Màu nền với độ mờ */
+    display: flex;
+    justify-content: center; /* Canh giữa theo chiều ngang */
+    align-items: center; /* Canh giữa theo chiều dọc */
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+
+  .popup-content input {
+    width: 100px; /* Đặt chiều rộng của các ô nhập */
+    padding: 10px; /* Đặt padding cho các ô nhập */
+    margin: 5px; /* Đặt margin giữa các ô nhập */
+    font-size: 20px; /* Đặt kích thước font cho các ô nhập */
+  }
+  
+  .popup-content h3{
+    font-size: 30px;
+  }

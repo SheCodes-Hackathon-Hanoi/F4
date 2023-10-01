@@ -1,0 +1,71 @@
+.HomePage{
+    background-color: #AEDAF2;
+    height: 100vh;
+    width: 100vw;
+}
+
+.MainSection{
+  display: flex;
+  background-color: white;
+  margin-left: 25%;
+  margin-top: 20px;
+  height: 530px;
+  width: 70vw;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.left h3{
+    margin-left: 50px;
+}
+
+.team-list{
+  list-style-type: none;
+  padding: '8px 16px'
+}
+
+.team-list li button{
+  font-size: 20px;
+}
+
+.team-list button{
+  display: flex;
+  align-items: flex-start;
+  width: 40vw;
+  border-radius: 20px;
+  background-color: #E1F0F8;
+  color: black;
+  margin: 15px;
+  padding: 16px;
+  border: none;
+}
+
+.right{
+    width: 20vw;
+    padding-left: 50px;
+}
+
+.total-money{
+    margin-left: 20px;
+    background-color: #F87C83;
+    width: 15vw;
+    height: 30vh;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.circled-number {
+    background-color: #AEE1F1;
+    color: black;
+    border-radius: 100%;
+    padding: 8px 13px;
+    margin-right: 10px;
+  }
+  
+.team-list button:hover{
+  background-color: #8dd9f1;
+}
